@@ -1,0 +1,71 @@
+/* HEADER STYLES */
+
+/* Figure out a header style that isn't lame as fuck */
+
+.HeaderTitle {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+    font-weight: bolder;
+    margin: 2px;
+}
+.HeaderSubtitle {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 2px;
+}
+.HeaderTagline {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    font-weight: lighter;
+    margin: 2px;
+}
+
+/* BODY STYLES */
+
+main{
+    width: 100%;
+    background-color: darkgray;
+}
+
+main > p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    text-align: center;
+    padding: 100px;
+}
+
+main > p > a:link{
+    color:black;
+}
+
+main > p > a:visited{
+    color:black;
+}
+
+main > p > a:hover{
+    color:black;
+}
+
+main > p > a:active{
+    color:black;
+}
+
+/* OTHER STYLES */
+
+/* FOOTER STYLES */
+
+div.footer{
+    width: 100%;
+    text-align: center;
+    background-color: darkslategrey;
+    padding: 0px;
+}
+
+p.copyright{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    font-weight: normal;
+    color: #FFFFFF;
+    padding: 5px;
+}
